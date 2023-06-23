@@ -1,6 +1,7 @@
 import unittest
 from calc import Calc
 
+
 class TestCalc(unittest.TestCase):
 
     def setUp(self):
@@ -28,4 +29,4 @@ class TestCalc(unittest.TestCase):
 
     def test_sqrt(self):
         self.assertEqual(self.calc.sqrt(81), 9)
-        self.assertEqual(self.calc.sqrt(8), 2.8284271247461903 )
+        self.assertEqual(self.calc.sqrt(8), 2.8284271247461903)
